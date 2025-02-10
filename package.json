@@ -2,10 +2,10 @@
   "name": "fidelite_backend",
   "version": "1.0.0",
   "description": "Backend for Fidelite project",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "Your Name",
@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
