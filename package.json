@@ -1,14 +1,14 @@
 {
   "name": "fidelite_backend",
   "version": "1.0.0",
-  "description": "Backend for Fidelite project",
-  "main": "src/index.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Your Name",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -16,11 +16,5 @@
     "express": "^4.21.2",
     "mongoose": "^8.10.0",
     "multer": "^1.4.5-lts.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.3"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
